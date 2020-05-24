@@ -1,0 +1,90 @@
+body > table{
+    width: 85%;
+    margin: 40px auto;
+    background-color:#797474;
+    opacity:0.8;
+    filter:alpha(opacity=60);
+}
+body{
+	background-image:url(img/re.jpg);
+	background-attachment:fixed;
+	}
+body {
+
+    background-image:url(img/re.jpg);
+
+    background-repeat:no-repeat;
+
+    background-size: cover;
+
+ }
+h1 {
+    font-size:40px;
+}
+h3{
+    font-size:25px;
+}
+img{
+    opacity:0.8;
+    filter:alpha(opacity=60);
+}
+
+p{
+    color:rgba(0, 0, 0, 0.788)
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+}
+td, th{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px 15px;
+}
+tr:nth-child(even),table.list thead>tr{
+    background-color: #ddd;
+}
+input[type="text"], input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding: 6px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    margin: 15px 0 10px;
+    outline: none;
+}
+a:link,a:visited {
+    background: rgb(236, 8, 8);
+    width:auto;
+    padding: 6px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    margin: 15px 0 10px;
+    outline: none;
+}
+a:hover, a:active {
+	background-color: #FFF;
+	padding-bottom: 8px;
+	color: #09F;
+	padding-top: 8px;
+	border: 2px solid #09F;
+	padding-right: 23px;
+	padding-left: 23px;
+}
+input[type="submit"]:hover{
+    background: #f3f3f3;
+}
